@@ -17,7 +17,6 @@ export default class CoursesComponent {
   public viewInfoCourse(name: string) {
     const commands = ['info', name];
     const extras = {relativeTo: this._activatedRouter}
-    debugger
 
     this._router.navigate(commands, extras).then()
   }
