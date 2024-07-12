@@ -1,0 +1,82 @@
+<div class="container-xxl bg-white p-0">
+
+  <!-- Page Header End -->
+  <div class="container-xxl py-5 page-header position-relative mb-5">
+    <div class="container py-5">
+      <h1 class="display-2 text-white animated slideInDown mb-4">{{ course | titlecase }}</h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Courses</a></li>
+          <li class="breadcrumb-item text-white active" aria-current="page">{{ course | titlecase }}</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+  <!-- Classes Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="d-flex gap-lg-5">
+        <div class="accordion w-75" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Acordeón artículo #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Este es el cuerpo del acordeón del primer elemento.</strong> Se muestra de forma predeterminada, hasta que el complemento de colapso agrega las clases apropiadas que usamos para diseñar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquiera de esto con CSS personalizado o sobrescribir nuestras variables predeterminadas. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Acordeón artículo #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Este es el cuerpo del acordeón del segundo elemento.</strong> Está oculto de manera predeterminada, hasta que el complemento de Collapse agregue las clases apropiadas que usamos para diseñar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquiera de esto con CSS personalizado o sobrescribir nuestras variables predeterminadas. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Acordeón artículo #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Este es el cuerpo del acordeón del tercer elemento.</strong> Está oculto de manera predeterminada, hasta que el complemento Collapse agregue las clases apropiadas que usamos para diseñar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquiera de esto con CSS personalizado o sobrescribir nuestras variables predeterminadas. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card w-25 bg-dark">
+          <img src="/assets/img/minecraft.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-white mb-3">Acerca de este curso</h5>
+            <div class="d-flex gap-2 align-items-center mb-2">
+              <i class="fa-solid fa-file"></i>
+              <div class="text-white">159 lecciones</div>
+            </div>
+            <div class="d-flex gap-2 align-items-center mb-2">
+              <i class="fa-solid fa-video"></i>
+              <div class="text-white">18.5 horas de contenido de video</div>
+            </div>
+            <div class="d-flex gap-2 align-items-center mb-4">
+              <i class="fa-solid fa-ticket"></i>
+              <div class="text-white">USD 10</div>
+            </div>
+            <a class="btn btn-primary w-100">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
