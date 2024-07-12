@@ -162,7 +162,7 @@ h6,
 
 
 /*** Header ***/
-/*.header-carousel::before,
+.header-carousel::before,
 .header-carousel::after,
 .page-header::before,
 .page-header::after {
@@ -172,7 +172,7 @@ h6,
   height: 10px;
   top: 0;
   left: 0;
-  background: url(../img/bg-header-top.png) center center repeat-x;
+  background: url('/assets/img/bg-header-top.png') center center repeat-x;
   z-index: 1;
 }
 
@@ -181,9 +181,9 @@ h6,
   height: 19px;
   top: auto;
   bottom: 0;
-  background: url(../img/bg-header-bottom.png) center center repeat-x;
+  background: url('/assets/img/bg-header-bottom.png') center center repeat-x;
 }
-*/
+
 @media (max-width: 768px) {
   .header-carousel .owl-carousel-item {
     position: relative;
@@ -239,10 +239,10 @@ h6,
   border-color: var(--primary);
 }
 
-/*.page-header {
-  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/carousel-1.jpg) center center no-repeat;
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('/assets/img/carousel-1.jpg') center center no-repeat;
   background-size: cover;
-}*/
+}
 
 .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(255, 255, 255, .5);
