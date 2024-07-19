@@ -9,7 +9,7 @@ import {SafeResourceUrl} from "@angular/platform-browser";
   providedIn: 'root'
 })
 export class MercadoPagoService {
-  private _url = 'https://wxfwccs3-3001.brs.devtunnels.ms/create-order'
+  private _url = 'https://codelab-engine.onrender.com/create-order'
 
   private _urlMercadoPago: SafeResourceUrl = "";
 
